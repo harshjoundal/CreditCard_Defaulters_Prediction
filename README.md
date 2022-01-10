@@ -120,6 +120,8 @@ Our next step would be to follow the instruction given on [Heroku Documentation]
 
 [![Python](https://github.com/jalbertsr/logo-badge-images/blob/master/img/rsz_python.png?raw=true)](https://www.python.org/)
 
+<a title="Marc Garcia, BSD &lt;http://opensource.org/licenses/bsd-license.php&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Pandas_logo.svg"><img width="128" alt="Pandas logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/128px-Pandas_logo.svg.png"></a>
+
 <a title="JetBrains, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:PyCharm_Icon.svg"><img width="128" alt="PyCharm Icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/PyCharm_Icon.svg/128px-PyCharm_Icon.svg.png"></a>
 
 
