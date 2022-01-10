@@ -137,4 +137,4 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 * Front-End 
 
 ## Deployed Heroku app link 
-App link : 
+App link : https://credit-card-defaulters646.herokuapp.com/
