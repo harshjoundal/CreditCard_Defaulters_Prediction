@@ -69,9 +69,16 @@ Whether a person shall default in the credit card payment or not.
 - predictions:
 ![prediction](https://user-images.githubusercontent.com/72031522/148741682-f7a7cf13-c423-44b3-8878-4f5a2f3b6005.png)
 
-All the files from batch directory are extracted and the data is saved on sql server. After that from sql server all data extracted in single '.csv' file. 
-First Data from csv file sent to clustering algorithm and as per the cluster number final predictions are made from differnt differnt ML algorithms as per the cluster.
-At the end all the predictions from all ML algorithms are saved in single CSV file in defined directory.
+    1) All the files from batch directory are extracted and the data is saved on sql server.
+    
+    2) Data Export from Db - The data in the stored database is exported as a CSV file to be used for prediction.
+    
+    3) Clustering - KMeans model created during training is loaded, and clusters for the preprocessed prediction data is predicted.
+
+    4) Prediction - Based on the cluster number, the respective model is loaded and is used to predict the data for that cluster.
+
+    5) Once the prediction is made for all the clusters, the predictions along with the original names before label encoder are saved in a CSV file at a given location and the location is returned to the client.
+
 
 ![prediction_output](https://user-images.githubusercontent.com/72031522/148742275-f29ea7d2-1b4c-4d3b-b1f2-172dc4321a8f.png)
 
